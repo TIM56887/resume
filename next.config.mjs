@@ -4,6 +4,9 @@ const nextConfig = {
     trailingSlash: true, // 確保所有路徑都以 `/` 結尾
     reactStrictMode: true,
     basePath: '/resume',
+    images: {
+        unoptimized: true,       // 禁用圖片優化功能
+    },
   };
   
   export default nextConfig;
